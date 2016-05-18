@@ -1,0 +1,92 @@
+/*!
+ * Start Bootstrap - Logo Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+	/* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+	font-family:'Lato' , sans-serif;
+	background-image:url("../logo/geometry2.png");
+	background-repeat:repeat;
+	letter-spacing:1.5px;	
+	}
+header{
+    width:100%;
+    display:block;
+}
+#image-header{
+    max-height:300px;
+    height:auto;
+    width:100%;
+
+}
+#image-tag{
+    padding-right:0;
+    padding-left:0;
+    height:300px;
+}
+.overlay{
+    background-color: rgba(97,97,97,.7);
+    position:relative;
+    height:300px;
+    width:100%;
+    top:-300px;
+}
+.tag-line{
+    position: relative;
+    top: -520px;
+    color: white;
+    text-align: center;
+}
+#sign-up{
+    position: absolute;
+    top: 167px;
+    color: white;
+    left:48%;
+
+}
+@media all and (max-width:600px){
+    #sign-up{
+        left:42%;
+    }
+}
+.head-group{
+    position: absolute;
+    top:3%;
+    right:1%;
+}
+.head-group button{
+    margin-left:10px;
+}
+.owl-prev{
+	text-align:center;
+	color:#2962ff;
+	font-size:17px;
+	float:left;
+	text-transform:capitalize;
+	
+}
+.owl-next{
+	text-align:center;
+	color:#2962ff;
+	float:right;
+	font-size:17px;
+	text-transform:capitalize;
+}
+footer{
+	background-color:#22baa0;
+	padding:15px;
+	color:white;
+	letter-spacing:1.2px;
+	font-family:'Lato',sans-serif;
+	
+}
+footer a{
+	font-size:14px;
+	color:white;
+}
+.item img{
+	height:220px;
+	width:168px;
+}
